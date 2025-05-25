@@ -1,0 +1,171 @@
+<?php
+return [
+    // General
+    'site_name' => 'SakuraCloudID',
+    'welcome' => 'Selamat Datang',
+    'login' => 'Masuk',
+    'register' => 'Daftar',
+    'logout' => 'Keluar',
+    'dashboard' => 'Dasbor',
+    'products' => 'Produk',
+    'services' => 'Layanan',
+    'cart' => 'Keranjang',
+    'support' => 'Dukungan',
+    'profile' => 'Profil',
+    'settings' => 'Pengaturan',
+    
+    // Authentication
+    'email' => 'Alamat Email',
+    'password' => 'Kata Sandi',
+    'confirm_password' => 'Konfirmasi Kata Sandi',
+    'full_name' => 'Nama Lengkap',
+    'phone' => 'Nomor Telepon',
+    'forgot_password' => 'Lupa Kata Sandi?',
+    'remember_me' => 'Ingat Saya',
+    'create_account' => 'Buat Akun',
+    'already_have_account' => 'Sudah punya akun?',
+    'dont_have_account' => 'Belum punya akun?',
+    'login_here' => 'Masuk di sini',
+    'register_here' => 'Daftar di sini',
+    
+    // Dashboard
+    'welcome_back' => 'Selamat Datang Kembali',
+    'current_balance' => 'Saldo Saat Ini',
+    'active_services' => 'Layanan Aktif',
+    'open_tickets' => 'Tiket Terbuka',
+    'recent_services' => 'Layanan Terbaru',
+    'recent_transactions' => 'Transaksi Terbaru',
+    'quick_actions' => 'Aksi Cepat',
+    'browse_products' => 'Lihat Produk',
+    'open_ticket' => 'Buat Tiket',
+    'top_up' => 'Isi Saldo',
+    
+    // Products
+    'product_name' => 'Nama Produk',
+    'specs' => 'Spesifikasi',
+    'region' => 'Region',
+    'hourly_price' => 'Harga per Jam',
+    'monthly_price' => 'Harga per Bulan',
+    'yearly_price' => 'Harga per Tahun',
+    'billing_cycle' => 'Siklus Penagihan',
+    'add_to_cart' => 'Tambah ke Keranjang',
+    'product_details' => 'Detail Produk',
+    
+    // Services
+    'service_id' => 'ID Layanan',
+    'status' => 'Status',
+    'expiry_date' => 'Tanggal Kadaluarsa',
+    'ip_address' => 'Alamat IP',
+    'manage_service' => 'Kelola Layanan',
+    'renew_service' => 'Perpanjang Layanan',
+    'service_details' => 'Detail Layanan',
+    'no_active_services' => 'Anda tidak memiliki layanan aktif.',
+    
+    // Cart
+    'shopping_cart' => 'Keranjang Belanja',
+    'subtotal' => 'Subtotal',
+    'discount' => 'Diskon',
+    'total' => 'Total',
+    'promo_code' => 'Kode Promo',
+    'apply_promo' => 'Terapkan',
+    'checkout' => 'Pembayaran',
+    'empty_cart' => 'Keranjang Anda kosong.',
+    'remove' => 'Hapus',
+    
+    // Payment
+    'payment_method' => 'Metode Pembayaran',
+    'payment_status' => 'Status Pembayaran',
+    'transaction_id' => 'ID Transaksi',
+    'reference' => 'Referensi',
+    'amount' => 'Jumlah',
+    'date' => 'Tanggal',
+    'payment_success' => 'Pembayaran Berhasil',
+    'payment_pending' => 'Pembayaran Tertunda',
+    'payment_failed' => 'Pembayaran Gagal',
+    
+    // Support
+    'ticket_subject' => 'Subjek',
+    'ticket_message' => 'Pesan',
+    'ticket_status' => 'Status',
+    'submit_ticket' => 'Kirim Tiket',
+    'reply' => 'Balas',
+    'no_tickets' => 'Tidak ada tiket ditemukan.',
+    
+    // Status
+    'status_active' => 'Aktif',
+    'status_suspended' => 'Ditangguhkan',
+    'status_expired' => 'Kadaluarsa',
+    'status_pending' => 'Tertunda',
+    'status_completed' => 'Selesai',
+    'status_cancelled' => 'Dibatalkan',
+    'status_paid' => 'Dibayar',
+    'status_failed' => 'Gagal',
+    
+    // Messages
+    'msg_login_success' => 'Login berhasil. Selamat datang kembali!',
+    'msg_login_failed' => 'Email atau kata sandi tidak valid.',
+    'msg_register_success' => 'Pendaftaran berhasil! Silakan login.',
+    'msg_logout_success' => 'Anda telah berhasil keluar.',
+    'msg_password_mismatch' => 'Kata sandi tidak cocok.',
+    'msg_invalid_email' => 'Masukkan alamat email yang valid.',
+    'msg_email_exists' => 'Alamat email sudah terdaftar.',
+    'msg_fill_required' => 'Harap isi semua field yang diperlukan.',
+    'msg_invalid_phone' => 'Masukkan nomor telepon yang valid.',
+    'msg_insufficient_balance' => 'Saldo tidak mencukupi. Silakan isi saldo.',
+    'msg_service_renewed' => 'Layanan berhasil diperpanjang.',
+    'msg_promo_applied' => 'Kode promo berhasil diterapkan.',
+    'msg_invalid_promo' => 'Kode promo tidak valid atau kadaluarsa.',
+    'msg_cart_updated' => 'Keranjang berhasil diperbarui.',
+    'msg_item_removed' => 'Item dihapus dari keranjang.',
+    'msg_order_success' => 'Pesanan berhasil! Layanan Anda akan segera diaktifkan.',
+    'msg_payment_success' => 'Pembayaran berhasil diproses.',
+    'msg_payment_pending' => 'Pembayaran Anda sedang diproses.',
+    'msg_payment_failed' => 'Pembayaran gagal. Silakan coba lagi.',
+    'msg_ticket_created' => 'Tiket dukungan berhasil dibuat.',
+    'msg_reply_sent' => 'Balasan berhasil dikirim.',
+    
+    // Errors
+    'error_general' => 'Terjadi kesalahan. Silakan coba lagi nanti.',
+    'error_permission' => 'Anda tidak memiliki izin untuk mengakses halaman ini.',
+    'error_not_found' => 'Sumber daya yang diminta tidak ditemukan.',
+    'error_invalid_request' => 'Permintaan tidak valid. Silakan coba lagi.',
+    'error_session_expired' => 'Sesi Anda telah berakhir. Silakan login kembali.',
+    'error_maintenance' => 'Sistem sedang dalam pemeliharaan. Silakan coba lagi nanti.',
+    
+    // Confirmations
+    'confirm_delete' => 'Apakah Anda yakin ingin menghapus item ini?',
+    'confirm_cancel' => 'Apakah Anda yakin ingin membatalkan layanan ini?',
+    'confirm_logout' => 'Apakah Anda yakin ingin keluar?',
+    
+    // Time
+    'time_seconds' => 'detik',
+    'time_minutes' => 'menit',
+    'time_hours' => 'jam',
+    'time_days' => 'hari',
+    'time_months' => 'bulan',
+    'time_years' => 'tahun',
+    'time_ago' => 'yang lalu',
+    
+    // Footer
+    'about_us' => 'Tentang Kami',
+    'contact' => 'Kontak',
+    'terms' => 'Syarat Layanan',
+    'privacy' => 'Kebijakan Privasi',
+    'copyright' => 'Hak cipta dilindungi.',
+    
+    // Additional Indonesian-specific translations
+    'billing_cycle_hourly' => 'Per Jam',
+    'billing_cycle_monthly' => 'Per Bulan',
+    'billing_cycle_yearly' => 'Per Tahun',
+    'currency_idr' => 'Rp',
+    'payment_method_bank_transfer' => 'Transfer Bank',
+    'payment_method_ewallet' => 'E-Wallet',
+    'payment_method_credit_card' => 'Kartu Kredit',
+    'region_jakarta' => 'Jakarta',
+    'region_singapore' => 'Singapura',
+    'region_tokyo' => 'Tokyo',
+    'support_priority_low' => 'Rendah',
+    'support_priority_medium' => 'Sedang',
+    'support_priority_high' => 'Tinggi',
+    'support_priority_urgent' => 'Mendesak'
+];
