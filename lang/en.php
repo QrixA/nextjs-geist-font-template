@@ -1,0 +1,155 @@
+<?php
+return [
+    // General
+    'site_name' => 'SakuraCloudID',
+    'welcome' => 'Welcome',
+    'login' => 'Login',
+    'register' => 'Register',
+    'logout' => 'Logout',
+    'dashboard' => 'Dashboard',
+    'products' => 'Products',
+    'services' => 'Services',
+    'cart' => 'Cart',
+    'support' => 'Support',
+    'profile' => 'Profile',
+    'settings' => 'Settings',
+    
+    // Authentication
+    'email' => 'Email Address',
+    'password' => 'Password',
+    'confirm_password' => 'Confirm Password',
+    'full_name' => 'Full Name',
+    'phone' => 'Phone Number',
+    'forgot_password' => 'Forgot Password?',
+    'remember_me' => 'Remember Me',
+    'create_account' => 'Create Account',
+    'already_have_account' => 'Already have an account?',
+    'dont_have_account' => 'Don\'t have an account?',
+    'login_here' => 'Login here',
+    'register_here' => 'Register here',
+    
+    // Dashboard
+    'welcome_back' => 'Welcome back',
+    'current_balance' => 'Current Balance',
+    'active_services' => 'Active Services',
+    'open_tickets' => 'Open Tickets',
+    'recent_services' => 'Recent Services',
+    'recent_transactions' => 'Recent Transactions',
+    'quick_actions' => 'Quick Actions',
+    'browse_products' => 'Browse Products',
+    'open_ticket' => 'Open Ticket',
+    'top_up' => 'Top Up Balance',
+    
+    // Products
+    'product_name' => 'Product Name',
+    'specs' => 'Specifications',
+    'region' => 'Region',
+    'hourly_price' => 'Hourly Price',
+    'monthly_price' => 'Monthly Price',
+    'yearly_price' => 'Yearly Price',
+    'billing_cycle' => 'Billing Cycle',
+    'add_to_cart' => 'Add to Cart',
+    'product_details' => 'Product Details',
+    
+    // Services
+    'service_id' => 'Service ID',
+    'status' => 'Status',
+    'expiry_date' => 'Expiry Date',
+    'ip_address' => 'IP Address',
+    'manage_service' => 'Manage Service',
+    'renew_service' => 'Renew Service',
+    'service_details' => 'Service Details',
+    'no_active_services' => 'You don\'t have any active services.',
+    
+    // Cart
+    'shopping_cart' => 'Shopping Cart',
+    'subtotal' => 'Subtotal',
+    'discount' => 'Discount',
+    'total' => 'Total',
+    'promo_code' => 'Promo Code',
+    'apply_promo' => 'Apply',
+    'checkout' => 'Checkout',
+    'empty_cart' => 'Your cart is empty.',
+    'remove' => 'Remove',
+    
+    // Payment
+    'payment_method' => 'Payment Method',
+    'payment_status' => 'Payment Status',
+    'transaction_id' => 'Transaction ID',
+    'reference' => 'Reference',
+    'amount' => 'Amount',
+    'date' => 'Date',
+    'payment_success' => 'Payment Successful',
+    'payment_pending' => 'Payment Pending',
+    'payment_failed' => 'Payment Failed',
+    
+    // Support
+    'ticket_subject' => 'Subject',
+    'ticket_message' => 'Message',
+    'ticket_status' => 'Status',
+    'submit_ticket' => 'Submit Ticket',
+    'reply' => 'Reply',
+    'no_tickets' => 'No tickets found.',
+    
+    // Status
+    'status_active' => 'Active',
+    'status_suspended' => 'Suspended',
+    'status_expired' => 'Expired',
+    'status_pending' => 'Pending',
+    'status_completed' => 'Completed',
+    'status_cancelled' => 'Cancelled',
+    'status_paid' => 'Paid',
+    'status_failed' => 'Failed',
+    
+    // Messages
+    'msg_login_success' => 'Login successful. Welcome back!',
+    'msg_login_failed' => 'Invalid email or password.',
+    'msg_register_success' => 'Registration successful! You can now login.',
+    'msg_logout_success' => 'You have been successfully logged out.',
+    'msg_password_mismatch' => 'Passwords do not match.',
+    'msg_invalid_email' => 'Please enter a valid email address.',
+    'msg_email_exists' => 'Email address is already registered.',
+    'msg_fill_required' => 'Please fill in all required fields.',
+    'msg_invalid_phone' => 'Please enter a valid phone number.',
+    'msg_insufficient_balance' => 'Insufficient balance. Please top up your account.',
+    'msg_service_renewed' => 'Service renewed successfully.',
+    'msg_promo_applied' => 'Promo code applied successfully.',
+    'msg_invalid_promo' => 'Invalid or expired promo code.',
+    'msg_cart_updated' => 'Cart updated successfully.',
+    'msg_item_removed' => 'Item removed from cart.',
+    'msg_order_success' => 'Order completed successfully! Your services will be activated shortly.',
+    'msg_payment_success' => 'Payment processed successfully.',
+    'msg_payment_pending' => 'Your payment is being processed.',
+    'msg_payment_failed' => 'Payment failed. Please try again.',
+    'msg_ticket_created' => 'Support ticket created successfully.',
+    'msg_reply_sent' => 'Reply sent successfully.',
+    
+    // Errors
+    'error_general' => 'An error occurred. Please try again later.',
+    'error_permission' => 'You don\'t have permission to access this page.',
+    'error_not_found' => 'The requested resource was not found.',
+    'error_invalid_request' => 'Invalid request. Please try again.',
+    'error_session_expired' => 'Your session has expired. Please login again.',
+    'error_maintenance' => 'System is under maintenance. Please try again later.',
+    
+    // Confirmations
+    'confirm_delete' => 'Are you sure you want to delete this item?',
+    'confirm_cancel' => 'Are you sure you want to cancel this service?',
+    'confirm_logout' => 'Are you sure you want to logout?',
+    
+    // Time
+    'time_seconds' => 'seconds',
+    'time_minutes' => 'minutes',
+    'time_hours' => 'hours',
+    'time_days' => 'days',
+    'time_months' => 'months',
+    'time_years' => 'years',
+    'time_ago' => 'ago',
+    
+    // Footer
+    'about_us' => 'About Us',
+    'contact' => 'Contact',
+    'terms' => 'Terms of Service',
+    'privacy' => 'Privacy Policy',
+    'copyright' => 'All rights reserved.',
+];
